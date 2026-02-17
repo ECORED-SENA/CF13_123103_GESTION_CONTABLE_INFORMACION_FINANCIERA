@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="422.603" height="76" viewBox="0 0 422.603 76">
+  <g id="Group_1201675" data-name="Group 1201675" transform="translate(-749.149 -18329.568)">
+    <rect id="Rectangle_405470" data-name="Rectangle 405470" width="422.603" height="76" rx="5" transform="translate(749.149 18329.568)" fill="#fed5a7"/>
+    <g id="Group_1178368" data-name="Group 1178368" transform="translate(764.149 18344.566)">
+      <text id="Deprecación_por_unidad_" data-name="Deprecación por unidad =" transform="translate(0 30)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Deprecación por unidad =</tspan></text>
+      <text id="Costo_del_activo" data-name="Costo del activo" transform="translate(239.603 17)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Costo del activo</tspan></text>
+      <text id="Capacidad_de_producción_" data-name="Capacidad de producción " transform="translate(203.603 43)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Capacidad de producción </tspan></text>
+      <path id="Path_1033474" data-name="Path 1033474" d="M-6175,8247h192.124" transform="translate(6375.103 -8222)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
