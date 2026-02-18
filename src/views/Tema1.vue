@@ -571,13 +571,14 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.svg', alt='')              
       .col-lg-7
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-secundario.p-4.sin-before(style="background-color: #CBE7E8")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular Una entidad reconocerá una corrección de valor por pérdidas por pérdidas crediticias esperadas sobre un activo financiero que se mide de acuerdo con los párrafos 4.1.2 o 4.1.2A, una cuenta por cobrar por arrendamientos, un activo de contrato o un compromiso de préstamo y un contrato de garantía financiera a los que se les aplica los requerimientos de deterioro de valor de acuerdo con los párrafos 2.1(g), 4.2.1(c) o 4.2.1(d) El objetivo de los requerimientos del deterioro de valor es reconocer las pérdidas crediticias esperadas durante el tiempo de vida del activo de todos los instrumentos financieros para los cuales ha habido incrementos significativos en el riesgo crediticio desde el reconocimiento inicial — evaluado sobre una base colectiva o individual — considerando toda la información razonable y sustentable, incluyendo la que se refiera al futuro. (Pag. 20.)
             i.fas.fa-quote-right
-          .bloque-texto-d__autor 
-            .h5.mb-0 La NIIF 9 (2014) 
+          .bloque-texto-d__autor
+            .h5.mb-0 La NIIF 9 (2014)      
+        p.mt-3 El deterioro constituye la pérdida en los activos financieros, el cual ha sido medido al costo o al costo amortizado; por lo tanto, se debe revisar de forma individual si existen indicios de deterioro en cada período contable y realizar el respectivo ajuste a que haya lugar. 
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11

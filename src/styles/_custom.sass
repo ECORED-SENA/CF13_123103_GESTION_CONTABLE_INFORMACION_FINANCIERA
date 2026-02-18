@@ -2,7 +2,7 @@
   &-3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 60%
     right: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
@@ -82,6 +82,15 @@ td
 .bloque-texto-d
   &::before
     background-color: #DDEFFD !important
+
+    .bloque-texto-d.sin-before 
+  &::before 
+    display: none !important;
+    content: none !important;
+  
+
+
+
 //table
   width: 100%
   border-collapse: collapse
@@ -100,3 +109,6 @@ td
   text-align: left !important
 .text-right
   text-align: right !important
+
+
+  
