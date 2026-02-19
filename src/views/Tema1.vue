@@ -589,7 +589,7 @@
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.svg', alt='')
       .col-lg-7
         p.mb-4 En este caso, es importante tener en cuenta que el cliente paga dentro de 6 meses el valor de $65.000.000, no se cobran intereses; por lo tanto, dicho valor se debe traer a valor presente teniendo en cuenta el concepto de matemáticas financieras y valor del dinero en el tiempo. Por lo tanto, se aplica la fórmula de valor actual o valor presente, mediante interés efectivo.
-        .p-4.mb-4(style="background-color: #EDF7FE ")
+        .p-4.mb-4(style="background-color: #CBD8DF ")
           p.mb-4 VA = VF(1+i)⋀ n
             br
             |VA = $65.000.000 / (1+0,018i)⋀ 6
@@ -629,12 +629,12 @@
           br
           br
           |Por ejemplo, la empresa Contable SAS, adquiere un vehículo para uso de la gerencia, en las políticas contables se estableció que la vida útil es de tres (3) años, teniendo en cuenta que cada tres años venden el vehículo y adquieren uno nuevo, por lo tanto, este será el período de depreciación.
-        .p-4(style="background-color: #DDEFFD ")
+        .p-4(style="background-color: #FBEAE6 ")
           p.mb-0 De igual manera, se tiene en cuenta el desgaste del activo fijo y la obsolescencia técnica o comercial, teniendo en cuenta las mejoras, mantenimientos y reparaciones realizadas. En el caso en que la empresa, cambie las estimaciones contables respecto a la vida útil o valor residual, deberá revelar la información teniendo en cuenta los efectos que generen las modificaciones sobre los resultados futuros. Estos cambios se reconocerán como un cambio en una estimación contable de acuerdo con la NIC 8 “Políticas Contables, Cambios en las Estimaciones Contables y Errores”.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Es importante definir el “valor residual”, teniendo en cuenta que es un término utilizado frecuentemente en el procedimiento de cálculo de la depreciación de activos fijos.
-        .bloque-texto-d.color-secundario.p-4.mb-4
+        .bloque-texto-d.color-secundario.p-4.mb-4(style="background-color: #CBE7E8 ")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular El valor residual de un activo es el importe estimado que la entidad podría obtener de un activo por su disposición, después de haber deducido los costos estimados para su disposición, si el activo tuviera ya la edad y condición esperadas al término de su vida útil.
@@ -659,7 +659,7 @@
       .col-lg-7.mb-lg-0.mb-3
         .titulo-tres
           h3 Depreciación fiscal
-        .tarjeta.p-4(style="background-color: #DDEFFD").rounded-0.mb-4
+        .tarjeta.p-4(style="background-color: #CBD8DF").rounded-0.mb-4
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='')
             .col-lg-10
@@ -767,7 +767,7 @@
         .titulo-tres.mb-4
           h3 Métodos de depreciación
         p.mb-4 La depreciación se calcula sobre la sumatoria del precio de adquisición, el impuesto sobre las ventas y costos atribuibles para poner en funcionamiento el activo. Los métodos, son los siguientes:
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8") 
           h4.mb-0 Método de línea recta
         p.mb-2 Es el método que se usa con mayor frecuencia en las empresas, el cual consiste en dividir el costo del activo entre la vida útil estimada; por lo tanto, el cálculo en períodos iguales será el mismo valor.
         .row.justify-content-center.mb-3
@@ -883,7 +883,7 @@
                 td.fw-bold Total		
                 td.text-right $235.722        
                 td.text-right $235.722  
-    .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
+    .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8") 
       h4.mb-0  Método de depreciación acelerada  
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/27.png', alt='') 
@@ -1213,7 +1213,7 @@
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
         p.mb-4 El 1 de diciembre de 2020, la empresa Contable SAS, adquiere por un año una póliza de seguro por valor de $12.000.000, cancela en efectivo. 
     .row.justify-content-center.mb-5
@@ -1278,10 +1278,10 @@
     p.mb-4 En el año 2021, continúa el proceso de amortización, una vez se haya consumido o recibido el servicio, hasta que la cuenta del activo quede en cero (0) y su valor sea trasladado al gasto, el cual se verá reflejado en el estado de resultados.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        .p-4.mb-4(style="background-color: #F3F0EA")
+        .p-4.mb-4(style="background-color: #F6F6F6")
           p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
 
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-secundario.p-4(style="background-color: #E4EAEE")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             p.text-regular La amortización cesará en la fecha más temprana entre aquella en que el activo se clasifique como mantenido para la venta (o incluido en un grupo de activos para su disposición que se haya clasificado como mantenido para la venta) de acuerdo con la NIIF 5, y la fecha en que se produzca la baja en cuentas de este”. (párr.97)
@@ -1296,7 +1296,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/30.png', alt='')
       .col-lg-7
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-secundario.p-4(style="background-color: #CBE7E8")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             p.text-regular Tanto el período como el método de amortización utilizado para un activo intangible con vida útil finita se revisarán, como mínimo, al final de cada período. Si la nueva vida útil esperada difiere de las estimaciones anteriores, se cambiará el período de amortización para reflejar esta variación. Si se ha experimentado un cambio en el patrón esperado de generación de beneficios económicos futuros por parte del activo, el método de amortización se modificará para reflejar estos cambios. Los efectos de estas modificaciones en el período y en el método de amortización, se tratarán como cambios en las estimaciones contables. (párr.106)
@@ -1306,13 +1306,13 @@
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
         p.mb-4 El 1 de julio de 2020 la empresa Contable SAS inicia el desarrollo de un <em>software</em>, por lo tanto, incurre en los siguientes gastos:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 5.
       span Distribución de costos en el desarrollo de <em>software</em>
-    img.mb-4(src='@/assets/curso/temas/31b.png', alt='')
+    img.mb-4(src='@/assets/curso/temas/31b.png', alt='')(style="background-color: #FBEAE6")
     p.mb-4 El #[em software] estará apto para su uso el 01 de diciembre de 2020. Se estima una vida útil de 3 años. Se solicita realizar la medición inicial y la amortización del primer mes.
     .titulo-tres
       h3 Medición inicial:
@@ -1354,7 +1354,7 @@
     p.mb-4 Se realiza por el mes de diciembre, teniendo en cuenta que el activo intangible es apto para su uso a partir del 1 de diciembre de 2020.
     .row.justify-content-center.mb-5
       .col-lg-8
-        .bg-white.p-4.mb-4
+        .p-4.mb-4(style="background-color: #F6F6F6")
           p.mb-0 Costo Activo= $10.000.000
             br
             |Vida útil= 3 años
@@ -1408,7 +1408,7 @@
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
         p.mb-4 El 24 de noviembre de 2020 la empresa Contables SAS adquiere maquinaria y equipo por valor de USD 57.000, a una tasa de USD 3.500. El 18 de diciembre de 2020, se transfiere el riesgo una vez la máquina se encuentra en Colombia, fecha en la cual se realizará el pago. Cuando se realiza el proceso de nacionalización la tasa vigente es USD 3.620.
     .titulo-tres
@@ -1638,7 +1638,7 @@
       h2 1.6 Conciliación bancaria
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        .p-4.mb-4(style="background-color: #DDEFFD")
+        .p-4.mb-4(style="background-color: #CBE7E8")
           p.mb-0 La conciliación bancaria, es el proceso de verificación y comparación del importe en libros de la cuenta de bancos con el extracto de la cuenta de ahorros o corriente generado por la entidad financiera; cuyo objetivo, es confrontar las diferencias y realizar los ajustes respectivos que permitan revelar información comprensible, útil y oportuna.
         p.mb-0 La conciliación se realiza de forma mensual, teniendo en cuenta, confirmar las fechas, valores, soportes de las transacciones, luego se analizan las diferencias encontradas y se realizan los ajustes, con el fin de reflejar el saldo correcto en los libros. Los ajustes que frecuentemente se presentan son los siguientes:
       .col-lg-5.col-7: img(src='@/assets/curso/temas/34.png', alt='')
@@ -1960,7 +1960,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 El balance de prueba o de comprobación es un documento que refleja los saldos en el debe y haber de las cuentas de activo, pasivo, patrimonio, ingresos, gastos y costos. Cada una de las columnas débito y crédito deben dar sumas iguales, verificando una vez más el principio de partida doble.
-        .tarjeta.p-4(style="background-color: #DDEFFD").rounded-0.mb-4
+        .tarjeta.p-4(style="background-color: #CBE7E8").rounded-0.mb-4
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/35.svg', alt='')
             .col-lg-10
@@ -1970,7 +1970,7 @@
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
         p.mb-4 La empresa contable SAS, presenta los siguientes saldos del libro mayor a 31 de diciembre de 2020, con el fin de elaborar el balance de prueba.
     .row.justify-content-center.mb-5
@@ -2077,13 +2077,13 @@
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.png', alt='')
       .col-lg-7
         p.mb-4 Para elaborar el balance ajustado es importante tener en cuenta los diferentes ajustes que se presentaron en las cuentas, como son los ajustes de caja, bancos, depreciaciones, amortizaciones y demás cuentas que hayan sufrido alguna modificación por concepto de algún tipo de ajustes, los cuales generan cambios en períodos posteriores.
-        .p-4.mb-4(style="background-color: #DDEFFD ")
+        .p-4.mb-4(style="background-color: #CBE7E8 ")
           p.mb-0 Teniendo en cuenta lo anterior, se procede a realizar el comprobante de ajustes, seguidamente el balance ajustado donde se trasladan cada una de las cuentas de activos, pasivo, patrimonio, ingresos, gastos y costos.
         p.mb-0 Cabe resaltar que el balance debe sumar igual en el movimiento débito y crédito.
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
-        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8")
+        .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
         p.mb-4 Teniendo en cuenta el ejemplo anterior, se realizarán los siguientes ajustes contables con el fin de elaborar el comprobante de ajustes y el balance ajustado de la empresa Contable SAS.     
     .row.justify-content-center.mb-5
@@ -2113,18 +2113,18 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 41.
+          h5 Figura 7.
           span Comprobante de Ajustes - CONTABLE SAS
         img(src='@/assets/curso/temas/41.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 42.
+      h5 Figura 8.
       span Hoja de Trabajo – CONTABLE SAS
     img.mb-4(src='@/assets/curso/temas/42.svg', alt='Tabla contable que presenta el código, cuenta, saldos de prueba, ajustes y saldos ajustados, con datos en debe y haber. Incluye cuentas como caja, bancos, clientes, inventarios, depreciación acumulada, gastos financieros y aportes sociales, detallando las modificaciones contables realizadas.')
     .titulo-tres
       h3 Hoja de trabajo
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        .p-4.mb-4(style="background-color: #DDEFFD ")
+        .p-4.mb-4(style="background-color: #CBE7E8 ")
           p.mb-0 La hoja de trabajo es el documento que recopila la información del balance de prueba, los ajustes, el balance ajustado, el estado de resultados y estado de situación financiera. Su objetivo es validar la información contable y que sea útil para la elaboración de los estados financieros.
         p.mb-0 Cabe resaltar que este insumo contribuye en la elaboración de los asientos de cierre, teniendo en cuenta que los saldos de las cuentas de ingresos, gastos y costos se deben cerrar al finalizar el período contable.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/43.png', alt='')
@@ -2134,7 +2134,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 43.
+          h5 Tabla 39.
           span Cierre de la cuenta de ingresos
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2161,7 +2161,7 @@
                 td.text-right.fw-bold $42.549.000
                 td.text-right.fw-bold $42.549.000
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 44.
+          h5 Tabla 40.
           span Cierre de la cuenta de gastos
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2205,7 +2205,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 45.
+          h5 Tabla 41.
           span Cierre de la cuenta de utilidad o pérdida
         .tabla-a.color-acento-botones.mb-5
           table
@@ -2231,7 +2231,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 46.
+          h5 Tabla 42.
           span Balance final de saldos contables
         .tabla-a.color-acento-botones.mb-5
           table
