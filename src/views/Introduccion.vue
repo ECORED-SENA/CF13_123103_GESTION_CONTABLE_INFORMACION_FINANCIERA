@@ -17,7 +17,7 @@
             .p-4(style='background-color: #FEEAD4').h-100
                 h3.text-center.text-md-start Nota aclaratoria: 
                 p.mb-0.text-center.text-md-start
-                    | Las tablas que se toman como referencia en los ejemplos en cada uno de los temas desarrollados, elaboradas mediante el programa Excel, son derivadas de los mismos, por lo tanto no se numeran y la elaboración es propia del autor del presente componente.
+                    | Las tablas que se toman como referencia en los ejemplos en cada uno de los temas desarrollados, elaboradas mediante el programa Excel, son derivadas de los mismos; por lo tanto, no se numeran y la elaboración es propia del autor del presente componente.
       .col-lg-3.col-7: img(src='@/assets/curso/temas/2.png', alt='')
 
 </template>

@@ -114,7 +114,7 @@
         p.mb-0 De acuerdo con la NIC 36, el importe recuperable es “el mayor entre su valor razonable menos los costos de disposición y su valor en uso” (p.1695).
           br
           br
-          |Según la NIIF 13 (2020). la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
+          |Según la NIIF 13 (2020) la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
           br
           br
           |#[spam.fw-bold El objetivo y alcance de la presente norma son los siguientes:]
@@ -130,7 +130,7 @@
       h3 Alcance
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Esta Nomra se aplicará para la contabilización del deterioro del valor de todos los activos, distintos de:
+        p.mb-4 Esta Norma se aplicará para la contabilización del deterioro del valor de todos los activos, distintos de:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
@@ -138,7 +138,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Activos de contratos y activos que surgen de los costos para obtener o cumplir un contrato que se reconocen de acuerdo con la NIIF 15 Ingresos de Actividades Ordinarias procedentes de Contratos con Clientes.
+            p.mb-0 Activos de contratos y activos que surgen de los costos para obtener o cumplir un contrato que se reconocen de acuerdo con la NIIF 15, Ingresos de Actividades Ordinarias procedentes de Contratos con Clientes.
 
           li.d-flex
             i.fas.fa-angle-right
@@ -146,7 +146,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Activos que surjan por beneficios a los empleados (véase la NIC 19 Beneficios a los Empleados).
+            p.mb-0 Activos que surjan por beneficios a los empleados (véase la NIC 19, Beneficios a los empleados).
 
           li.d-flex
             i.fas.fa-angle-right
@@ -154,7 +154,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Propiedades de inversión que se midan según su valor razonable (véase la NIC 40 Propiedades de Inversión).
+            p.mb-0 Propiedades de inversión que se midan según su valor razonable (véase la NIC 40, Propiedades de Inversión).
 
           li.d-flex
             i.fas.fa-angle-right
@@ -166,7 +166,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Activos no corrientes (o grupos de activos para su disposición) clasificados como mantenidos para la venta de acuerdo con la NIIF 5 Activos no Corrientes Mantenidos Para la Venta y Operaciones Descontinuadas.
+            p.mb-0 Activos no corrientes (o grupos de activos para su disposición) clasificados como mantenidos para la venta de acuerdo con la NIIF 5 Activos no corrientes mantenidos para la venta y operaciones descontinuadas.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/10.svg', alt='')
     p.mb-4 Cabe resaltar que la empresa, al finalizar cada período contable, realizará la prueba de deterioro y verificará si hay indicios de este, con el fin de realizar los ajustes a que haya lugar; para ello, realizará la comparación del valor en libros con el importe recuperable, este proceso se debe realizar por lo menos una vez al año.
@@ -183,7 +183,7 @@
                 p.mb-0 Existen indicios observables de que el valor del activo ha disminuido durante el período significativamente, más que lo que cabría esperar como consecuencia del paso del tiempo o de su uso normal.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Durante el período han tenido lugar, o van a tener lugar en un futuro inmediato, cambios significativos con una incidencia adversa sobre la entidad, referentes al entorno legal, económico, tecnológico o de mercado en los que ésta opera, o bien en el mercado al que está destinado el activo.
+                p.mb-0 Durante el período han tenido lugar, o van a tener lugar en un futuro inmediato, cambios significativos con una incidencia adversa sobre la entidad, referentes al entorno legal, económico, tecnológico o de mercado en los que esta opera, o bien en el mercado al que está destinado el activo.
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Durante el período, las tasas de interés de mercado, u otras tasas de mercado de rendimiento de inversiones, han experimentado incrementos que probablemente afecten a la tasa de descuento utilizada para calcular el valor en uso del activo, de forma que disminuya el importe recuperable de forma significativa.
@@ -198,7 +198,7 @@
 
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Durante el período han tenido lugar, o se espera que tengan lugar en un futuro inmediato, cambios significativos en el alcance o manera en que se usa o se espera usar el activo, que afectarán desfavorablemente a la entidad. Estos cambios incluyen el hecho de que el activo esté ocioso, planes de discontinuación o reestructuración de la operación a la que pertenece el activo, planes para disponer del activo antes de la fecha prevista, y la reconsideración como finita de la vida útil de un activo, en lugar de indefinida.
+                p.mb-0 Durante el período han tenido lugar, o se espera que tengan lugar en un futuro inmediato, cambios significativos en el alcance o manera en que se usa o se espera usar el activo, que afectarán desfavorablemente a la entidad. Estos cambios incluyen el hecho de que el activo esté ocioso, planes de discontinuación o reestructuración de la operación a la que pertenece el activo, planes para disponer del activo antes de la fecha prevista y la reconsideración como finita de la vida útil de un activo, en lugar de indefinida.
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Según la NIC, se dispone de evidencia procedente de informes internos, que indica que el rendimiento económico del activo es, o va a ser, peor que el esperado. (Pág. 4.)
@@ -211,7 +211,7 @@
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 El importe del deterioro, debe registrarse en el resultado del período, excepto los activos reconocidos por su valor revaluado de acuerdo con la Norma Internacional de Contabilidad (NIC) 16.
+            p.mb-0 El importe del deterioro debe registrarse en el resultado del período, excepto los activos reconocidos por su valor revaluado de acuerdo con la Norma Internacional de Contabilidad (NIC) 16.
 
           li.d-flex
             i.fas.fa-angle-right
@@ -219,7 +219,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 En el momento que se reconoce la pérdida por deterioro se deben determinar los activos y pasivos por impuestos diferidos; para ello, se realiza la comparación del valor en libros del activo con su base fiscal, de acuerdo con la Norma Internacional de Contabilidad (NIC 12).
+            p.mb-0 En el momento en que se reconoce la pérdida por deterioro, se deben determinar los activos y pasivos por impuestos diferidos; para ello, se realiza la comparación del valor en libros del activo con su base fiscal, de acuerdo con la Norma Internacional de Contabilidad (NIC 12).
 
           li.d-flex
             i.fas.fa-angle-right
@@ -231,7 +231,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Se podrá revertir la pérdida de períodos anteriores, cuando se generan cambios en las estimaciones; por lo tanto, se aumentará su valor hasta su importe recuperable.
+            p.mb-0 Se podrá revertir la pérdida de períodos anteriores cuando se generan cambios en las estimaciones; por lo tanto, se aumentará su valor hasta su importe recuperable.
     .titulo-tres
       h3 Indicios para reversión de pérdida por deterioro
     p.mb-4 De acuerdo con la NIC 36, al evaluar si existe algún indicio de que pueda haberse deteriorado el valor de un activo, una entidad considerará, como mínimo, los siguientes indicios:
@@ -245,7 +245,7 @@
                 p.mb-0 Existen indicios observables de que el valor del activo ha aumentado significativamente durante el período.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Durante el período, han tenido, o van a tener lugar en un futuro inmediato, cambios significativos con un efecto favorable para la entidad, referentes al entorno legal, económico, tecnológico o de mercado en los que ésta opera, o bien en el mercado al cual va destinado el activo en cuestión.
+                p.mb-0 Durante el período, han tenido, o van a tener lugar en un futuro inmediato, cambios significativos con un efecto favorable para la entidad, referentes al entorno legal, económico, tecnológico o de mercado en los que esta opera, o bien en el mercado al cual va destinado el activo en cuestión.
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Durante el período, las tasas de interés de mercado, u otras tasas de mercado de rendimiento de inversiones, han experimentado disminuciones que probablemente afecten a la tasa de descuento utilizada para calcular el valor en uso del activo, de forma que incrementan el importe recuperable de forma significativa.
@@ -457,7 +457,7 @@
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/17.svg', alt='')
             .col-lg-10
               p.mb-0 Esta norma se aplica a todos los inventarios, excepto instrumentos financieros y activos biológicos. Allí se definen los criterios de reconocimiento, medición, presentación y revelación de inventarios, permitiendo identificar el costo con base en los elementos que lo componen. De igual manera, presenta las bases para el reconocimiento y medición del deterioro por este concepto.
-        p.mb-0 El deterioro en inventario se identifica mediante la comparación del importe en libros y el valor neto realizable, este último hace referencia al precio que se puede obtener por la venta de dicho activo. Si el importe en libros es mayor al valor neto realizable se considera deterioro de inventarios; por lo tanto, se registra la pérdida mediante un gasto.
+        p.mb-0 El deterioro en inventario se identifica mediante la comparación del importe en libros y el valor neto realizable; este último hace referencia al precio que se puede obtener por la venta de dicho activo. Si el importe en libros es mayor al valor neto realizable, se considera deterioro de inventarios; por lo tanto, se registra la pérdida mediante un gasto.
       .col-lg-5.col-7.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/16.png', alt='')                  
     .row.justify-content-center.mb-5
@@ -628,9 +628,9 @@
         p.mb-4 De acuerdo con los estándares internacionales, la depreciación se debe realizar a partir de que el activo fijo se encuentra apto para su uso, teniendo en cuenta el valor del importe en libros y la vida útil estipulada en las políticas contables. La estimación de la vida útil es el período en el cual la empresa desea darle uso al activo fijo.
           br
           br
-          |Por ejemplo, la empresa Contable SAS, adquiere un vehículo para uso de la gerencia, en las políticas contables se estableció que la vida útil es de tres (3) años, teniendo en cuenta que cada tres años venden el vehículo y adquieren uno nuevo, por lo tanto, este será el período de depreciación.
+          |Por ejemplo, la empresa Contable SAS adquiere un vehículo para uso de la gerencia; en las políticas contables se estableció que la vida útil es de tres (3) años, teniendo en cuenta que cada tres años venden el vehículo y adquieren uno nuevo; por lo tanto, este será el período de depreciación.
         .p-4(style="background-color: #FBEAE6 ")
-          p.mb-0 De igual manera, se tiene en cuenta el desgaste del activo fijo y la obsolescencia técnica o comercial, teniendo en cuenta las mejoras, mantenimientos y reparaciones realizadas. En el caso en que la empresa, cambie las estimaciones contables respecto a la vida útil o valor residual, deberá revelar la información teniendo en cuenta los efectos que generen las modificaciones sobre los resultados futuros. Estos cambios se reconocerán como un cambio en una estimación contable de acuerdo con la NIC 8 “Políticas Contables, Cambios en las Estimaciones Contables y Errores”.
+          p.mb-0 De igual manera, se tiene en cuenta el desgaste del activo fijo y la obsolescencia técnica o comercial, teniendo en cuenta las mejoras, mantenimientos y reparaciones realizadas. En el caso en que la empresa cambie las estimaciones contables respecto a la vida útil o valor residual, deberá revelar la información, teniendo en cuenta los efectos que generen las modificaciones sobre los resultados futuros. Estos cambios se reconocerán como un cambio en una estimación contable de acuerdo con la NIC 8 “Políticas Contables, Cambios en las Estimaciones Contables y Errores”.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Es importante definir el “valor residual”, teniendo en cuenta que es un término utilizado frecuentemente en el procedimiento de cálculo de la depreciación de activos fijos.
@@ -663,7 +663,7 @@
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='')
             .col-lg-10
-              p.mb-0 De acuerdo con el art. 69 del Estatuto Tributario (ET) para los contribuyentes declarantes de renta, se tendrá en cuenta la sumatoria de los costos de adquisición y los costos atribuibles hasta que el activo se encuentre en condiciones de uso. Cabe resaltar que los costos de desmantelamiento y retiro del elemento no se tendrán en cuenta.
+              p.mb-0 De acuerdo con el art. 69 del Estatuto Tributario (ET), para los contribuyentes declarantes de renta, se tendrá en cuenta la sumatoria de los costos de adquisición y los costos atribuibles hasta que el activo se encuentre en condiciones de uso. Cabe resaltar que los costos de desmantelamiento y retiro del elemento no se tendrán en cuenta.
         p.mb-4 #[b Parágrafo 1.] Las propiedades de inversión que se midan contablemente bajo el modelo de valor razonable, para efectos fiscales se medirán al costo.
           br
           br
