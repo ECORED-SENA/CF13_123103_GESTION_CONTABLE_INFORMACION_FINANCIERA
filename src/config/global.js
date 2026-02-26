@@ -245,22 +245,22 @@ export default {
     {
       referencia:
         'Norma Internacional de Contabilidad 21. efectos de las variaciones de las tasas (2020, 27 de noviembre).',
-      link: 'https://www.nicniif.org/files/u1/NIC_21_0.pdf',
+      link: '',
     },
     {
       referencia:
         'Norma Internacional de Contabilidad 36. (2020, 27 de noviembre). Deterioro del valor de los activos.',
-      link: 'http://nicniif.org/files/u1/NIC_36.pdf',
+      link: '',
     },
     {
       referencia:
         'Norma Internacional de Contabilidad 38. Activos Intangibles. (2020, 27 de noviembre).',
-      link: 'http://nicniif.org/files/u1/NIC_38.pdf',
+      link: '',
     },
     {
       referencia:
         'Norma Internacional de Contabilidad 39. Instrumentos Financieros: Reconocimiento y medición (2020, 27 de noviembre).',
-      link: 'http://nicniif.org/files/u1/NIC_39.pdf',
+      link: '',
     },
     {
       referencia:

@@ -574,7 +574,7 @@
         .bloque-texto-d.color-secundario.p-4.sin-before(style="background-color: #CBE7E8")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Una entidad reconocerá una corrección de valor por pérdidas por pérdidas crediticias esperadas sobre un activo financiero que se mide de acuerdo con los párrafos 4.1.2 o 4.1.2A, una cuenta por cobrar por arrendamientos, un activo de contrato o un compromiso de préstamo y un contrato de garantía financiera a los que se les aplica los requerimientos de deterioro de valor de acuerdo con los párrafos 2.1(g), 4.2.1(c) o 4.2.1(d) El objetivo de los requerimientos del deterioro de valor es reconocer las pérdidas crediticias esperadas durante el tiempo de vida del activo de todos los instrumentos financieros para los cuales ha habido incrementos significativos en el riesgo crediticio desde el reconocimiento inicial — evaluado sobre una base colectiva o individual — considerando toda la información razonable y sustentable, incluyendo la que se refiera al futuro. (Pag. 20.)
+            h5.text-regular Una entidad reconocerá una corrección de valor por pérdidas por pérdidas crediticias esperadas sobre un activo financiero que se mide de acuerdo con los párrafos 4.1.2 o 4.1.2A, una cuenta por cobrar por arrendamientos, un activo de contrato o un compromiso de préstamo y un contrato de garantía financiera a los que se les aplica los requerimientos de deterioro de valor de acuerdo con los párrafos 2.1(g), 4.2.1(c) o 4.2.1(d) El objetivo de los requerimientos del deterioro de valor es reconocer las pérdidas crediticias esperadas durante el tiempo de vida del activo de todos los instrumentos financieros para los cuales ha habido incrementos significativos en el riesgo crediticio desde el reconocimiento inicial — evaluado sobre una base colectiva o individual — considerando toda la información razonable y sustentable, incluyendo la que se refiera al futuro. (Pag. 20.)
             i.fas.fa-quote-right
           .bloque-texto-d__autor
             .h5.mb-0 La NIIF 9 (2014)      
@@ -637,7 +637,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-4(style="background-color: #CBE7E8 ")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular El valor residual de un activo es el importe estimado que la entidad podría obtener de un activo por su disposición, después de haber deducido los costos estimados para su disposición, si el activo tuviera ya la edad y condición esperadas al término de su vida útil.
+            h5.text-regular El valor residual de un activo es el importe estimado que la entidad podría obtener de un activo por su disposición, después de haber deducido los costos estimados para su disposición, si el activo tuviera ya la edad y condición esperadas al término de su vida útil.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 Según la NIC 16 (2020)
@@ -1072,6 +1072,7 @@
                 td Total
                 td.text-right 20.000
       .col-lg-5.col-7.mb-lg-0.mb-3
+        img.mb-4(src='@/assets/curso/temas/44.png', alt='')
         .p-4(style="background-color: #F6F6F6 ")
           p.mb-4 Para calcular el valor de depreciación por unidad se aplica la siguiente fórmula:
           .row.justify-content-center.mb-4
@@ -1184,7 +1185,7 @@
       h2 1.3 Amortización
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Este concepto se utiliza para diferir en cuotas los gastos pagados por anticipado que son consumidos en el período de tiempo y que efectivamente cumplen con la definición del activo, de lo contrario se deben registrar en el gasto, clase 5.
+        p.mb-4 Este concepto se utiliza para diferir en cuotas los gastos pagados por anticipado que son consumidos en el período de tiempo y que efectivamente cumplen con la definición del activo; de lo contrario, se deben registrar en el gasto, clase 5.
           br
           br
           |Cabe resaltar que el activo debe cumplir con los siguientes criterios:
@@ -1563,7 +1564,7 @@
     ol.lista-ol--cuadro
       li.d-flex
         .lista-ol--cuadro__vineta
-          span a
+          span b
         p.mb-0 El importe de libros es menor al valor del arqueo de caja: en este caso la diferencia constituye un sobrante, el cual requiere un ajuste contable. Los casos que se presentan son los siguientes:
     TabsC.color-acento-contenido.mb-5
       .py-4.py-md-5.px-5(titulo="Mayor valor en la caja y carece del registro contable")
@@ -1639,18 +1640,20 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #CBE7E8")
-          p.mb-0 La conciliación bancaria, es el proceso de verificación y comparación del importe en libros de la cuenta de bancos con el extracto de la cuenta de ahorros o corriente generado por la entidad financiera; cuyo objetivo, es confrontar las diferencias y realizar los ajustes respectivos que permitan revelar información comprensible, útil y oportuna.
+          p.mb-0 La conciliación bancaria es el proceso de verificación y comparación del importe en libros de la cuenta de bancos con el extracto de la cuenta de ahorros o corriente generado por la entidad financiera, cuyo objetivo es confrontar las diferencias y realizar los ajustes respectivos que permitan revelar información comprensible, útil y oportuna.
         p.mb-0 La conciliación se realiza de forma mensual, teniendo en cuenta, confirmar las fechas, valores, soportes de las transacciones, luego se analizan las diferencias encontradas y se realizan los ajustes, con el fin de reflejar el saldo correcto en los libros. Los ajustes que frecuentemente se presentan son los siguientes:
       .col-lg-5.col-7: img(src='@/assets/curso/temas/34.png', alt='')
     ol.lista-ol--cuadro
-      li.d-flex
-        .lista-ol--cuadro__vineta
-          span a
-        p.mb-0 #[b Por importes no registrados por la empresa y que se reflejan en el extracto bancario:] en este caso se debe realizar ajustes mediante notas débito y notas crédito, de acuerdo con la transacción que se esté presentando:
-    ul.lista-ul--color
-      li
-        i.fas.fa-circle.fa-xs
-        | #[b Por notas débito:] se presentan por concepto de chequeras, comisiones, cheques devueltos, intereses de sobregiros, intereses por préstamos y otros cobros realizados por las entidades financieras. En este caso disminuye la cuenta de bancos (crédito) y aumenta la cuenta (débito) relacionada con el concepto que se está cancelando.
+      li.d-flex.flex-column
+        .d-flex
+          .lista-ol--cuadro__vineta
+            span a
+          p.mb-0 #[b Por importes no registrados por la empresa y que se reflejan en el extracto bancario:] en este caso se deben realizar ajustes mediante notas débito y notas crédito, de acuerdo con la transacción que se esté presentando:
+               
+        ul.lista-ul--color.ms-4.mt-2
+          li
+            i.fas.fa-circle.fa-xs
+            | #[b Por notas débito:] se presentan por concepto de chequeras, comisiones, cheques devueltos, intereses de sobregiros, intereses por préstamos y otros cobros realizados por las entidades financieras. En este caso disminuye la cuenta de bancos (crédito) y aumenta la cuenta (débito) relacionada con el concepto que se está cancelando.
     .fondo-sly.mn.p-5.mb-5
       .tarjeta.p-5.bg-white
         SlyderA(tipo='b')
@@ -1723,7 +1726,7 @@
                       td.fw-bold Total
                       td.text-right.fw-bold $9.300
                       td.text-right.fw-bold $9.300
-    ul.lista-ul--color
+    ul.lista-ul--color.ms-4.mt-2
       li
         i.fas.fa-circle.fa-xs
         | #[b Por notas crédito:] sucede cuando en el extracto bancario se presentan notas crédito por concepto de préstamos abonados en cuenta corriente, consignaciones de clientes, rendimientos financieros.
@@ -2076,7 +2079,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.png', alt='')
       .col-lg-7
-        p.mb-4 Para elaborar el balance ajustado es importante tener en cuenta los diferentes ajustes que se presentaron en las cuentas, como son los ajustes de caja, bancos, depreciaciones, amortizaciones y demás cuentas que hayan sufrido alguna modificación por concepto de algún tipo de ajustes, los cuales generan cambios en períodos posteriores.
+        p.mb-4 Para elaborar el balance ajustado, es importante tener en cuenta los diferentes ajustes que se presentaron en las cuentas, como son los ajustes de caja, bancos, depreciaciones, amortizaciones y demás cuentas que hayan sufrido alguna modificación por concepto de algún tipo de ajustes, los cuales generan cambios en períodos posteriores.
         .p-4.mb-4(style="background-color: #CBE7E8 ")
           p.mb-0 Teniendo en cuenta lo anterior, se procede a realizar el comprobante de ajustes, seguidamente el balance ajustado donde se trasladan cada una de las cuentas de activos, pasivo, patrimonio, ingresos, gastos y costos.
         p.mb-0 Cabe resaltar que el balance debe sumar igual en el movimiento débito y crédito.
@@ -2092,7 +2095,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Al realizar el arqueo de caja se observa que existe un faltante injustificado por valor de $35.000.
+            p.mb-0 Al realizar el arqueo de caja, se observa que existe un faltante injustificado por valor de $35.000.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
@@ -2100,15 +2103,15 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 Se deprecian los activos fijos por el método de línea recta por un mes. La vida útil del equipo oficina es de 10 años y de la flota de transportes 5 años.
+            p.mb-0 Se deprecian los activos fijos por el método de línea recta por un mes. La vida útil del equipo de oficina es de 10 años y de la flota de transportes 5 años.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 4
-            p.mb-0 Se realiza la amortización de los gastos pagados por anticipado, el valor corresponde 2 meses de arrendamiento.
+            p.mb-0 Se realiza la amortización de los gastos pagados por anticipado; el valor corresponde a 2 meses de arrendamiento.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 5
-            p.mb-0 Se realiza la amortización de los ingresos recibidos por anticipado, el valor corresponde a dos meses de intereses.
+            p.mb-0 Se realiza la amortización de los ingresos recibidos por anticipado; el valor corresponde a dos meses de intereses.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/40.png', alt='')
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -2125,7 +2128,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #CBE7E8 ")
-          p.mb-0 La hoja de trabajo es el documento que recopila la información del balance de prueba, los ajustes, el balance ajustado, el estado de resultados y estado de situación financiera. Su objetivo es validar la información contable y que sea útil para la elaboración de los estados financieros.
+          p.mb-0 La hoja de trabajo es el documento que recopila la información del balance de prueba, los ajustes, el balance ajustado, el estado de resultados y el estado de situación financiera. Su objetivo es validar la información contable y que sea útil para la elaboración de los estados financieros.
         p.mb-0 Cabe resaltar que este insumo contribuye en la elaboración de los asientos de cierre, teniendo en cuenta que los saldos de las cuentas de ingresos, gastos y costos se deben cerrar al finalizar el período contable.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/43.png', alt='')
     .titulo-tres
