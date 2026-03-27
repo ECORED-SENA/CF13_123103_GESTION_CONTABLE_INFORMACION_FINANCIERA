@@ -26,13 +26,33 @@
 
 .banner-principal__row .banner-principal__img
   width: 433px !important
-  padding-bottom: 0px !important
+  top: 2.4rem
+  @media screen and (max-width: 1200px)
+    width: 370px !important
+    top: 4.5rem
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   // color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and (max-width: 1200px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal1.png") !important
+  @media screen and (max-width: 768px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal2.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principal3.png") !important
+
+.banner-principal__info
+  padding: 0rem 4rem 0rem 0rem
+  @media screen and (max-width: 576px)
+    padding: 9rem 2.4rem 9rem 1.5rem !important
+  @media screen and (min-width: 1400px)
+    padding: 0rem !important
 
 figcaption
   font-weight: normal
