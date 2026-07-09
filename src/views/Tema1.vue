@@ -10,7 +10,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
         .col-lg-7
-          .p-4: p.mb-0 Para realizar el cierre contable, se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo; teniendo en cuenta las normas contables, financieras, tributarias y laborales.
+          .p-4: p.mb-0 Para realizar el cierre contable, se requiere haber efectuado los procedimientos del ciclo contable, los cuales hacen referencia al proceso de reconocimiento y medición de los hechos económicos. Estos deben presentarse de forma ordenada, de acuerdo con el período de tiempo, teniendo en cuenta las normas contables, financieras, tributarias y laborales.
     p.mb-4 En el procedimiento del ciclo contable se tienen en cuenta las siguientes actividades:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -47,19 +47,18 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.
       span Diagrama del ciclo contable
-    img.mb-4(src='@/assets/curso/temas/5.svg', alt='Diagrama circular sobre el ciclo contable que incluye las siguientes etapas: realización del hecho económico, generación de documentos contables, reconocimiento y medición inicial, registro en el libro diario, traslado de la información al libro mayor y balances, elaboración del balance de comprobación, asientos de ajuste, comprobante de cierre y elaboración de estados financieros de propósito general.')
+    img.mb-4(src='@/assets/curso/temas/5.svg', alt='Diagrama circular sobre el ciclo contable que incluye las siguientes etapas: realización del hecho económico, generación de documentos contables, reconocimiento y medición inicial, registro en el libro diario, traslado de la información al libro mayor y balances, elaboración del balance de comprobación, asientos de ajuste, comprobante de cierre y elaboración de estados financieros de propósito general.', style="width: 800px").m-auto
     p.mb-4 Los asientos de ajuste hacen referencia al reconocimiento y medición de hechos económicos que presentan errores, omisiones y ajustes al valor real, con el fin de reflejar la realidad económica de la empresa y de esta manera presentar los estados financieros de forma comprensible, útil, oportuna y confiable para la toma de decisiones. Estos ajustes carecen del soporte contable específico; por lo tanto, se registran a través de una nota de contabilidad, con el fin de evidenciar el tipo de ajuste realizado en el respectivo período contable.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Los ajustes que se realizan con mayor frecuencia, afectando el período actual y posteriores, son:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
             p.mb-0 Efectivo: caja y bancos.
-
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Deudores
+            p.mb-0 Deudores.
           li.d-flex
             i.fas.fa-angle-right
             p.mb-0 Inventarios.
@@ -114,7 +113,7 @@
         p.mb-0 De acuerdo con la NIC 36, el importe recuperable es “el mayor entre su valor razonable menos los costos de disposición y su valor en uso” (p.1695).
           br
           br
-          |Según la NIIF 13 (2020) la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
+          |Según la NIIF 13 (2020), la medición del valor razonable es “el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado en la fecha de la medición” (p.3).
           br
           br
           |#[spam.fw-bold El objetivo y alcance de la presente norma son los siguientes:]
@@ -128,9 +127,9 @@
           .p-4: p.mb-0 El objetivo de esta norma consiste en establecer los procedimientos que una entidad aplicará para asegurar que sus activos están contabilizados por un importe que no sea superior a su importe recuperable. Un activo estará contabilizado por encima de su importe recuperable cuando su importe en libros exceda del importe que se pueda recuperar del mismo a través de su utilización o de su venta. Si este fuera el caso, el activo se presentaría como deteriorado, y la norma exige que la entidad reconozca una pérdida por deterioro del valor de ese activo. En la norma también se especifica cuándo la entidad revertirá la pérdida por deterioro del valor, así como la información a revelar.
     .titulo-tres
       h3 Alcance
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 Esta Norma se aplicará para la contabilización del deterioro del valor de todos los activos, distintos de:
+        p.mb-4 Esta norma se aplicará para la contabilización del deterioro del valor de todos los activos, distintos de:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
@@ -142,7 +141,7 @@
 
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Activos por impuestos diferidos (véase la NIC 12 Impuesto a las Ganancias).
+            p.mb-0 Activos por impuestos diferidos (véase la NIC, 12 Impuesto a las Ganancias).
 
           li.d-flex
             i.fas.fa-angle-right
@@ -168,8 +167,8 @@
             i.fas.fa-angle-right
             p.mb-0 Activos no corrientes (o grupos de activos para su disposición) clasificados como mantenidos para la venta de acuerdo con la NIIF 5 Activos no corrientes mantenidos para la venta y operaciones descontinuadas.
       .col-lg-5.col-7.mb-lg-0.mb-3
-        img(src='@/assets/curso/temas/10.svg', alt='')
-    p.mb-4 Cabe resaltar que la empresa, al finalizar cada período contable, realizará la prueba de deterioro y verificará si hay indicios de este, con el fin de realizar los ajustes a que haya lugar; para ello, realizará la comparación del valor en libros con el importe recuperable, este proceso se debe realizar por lo menos una vez al año.
+        img(src='@/assets/curso/temas/10.svg', alt='', style="width: 400px").m-auto
+    p.mb-4 Cabe resaltar que la empresa, al finalizar cada período contable, realizará la prueba de deterioro y verificará si hay indicios de este, con el fin de realizar los ajustes a que haya lugar; para ello, realizará la comparación del valor en libros con el importe recuperable. Este proceso se debe realizar por lo menos una vez al año.
       br
       br
       |La NIC 36 considera indicios de deterioro los que se transcriben a continuación:
@@ -265,11 +264,9 @@
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #cbe7e8")
           h4.mb-0 Ejemplo
-        p.mb-4 El 1 de agosto la empresa compra a crédito, una máquina por valor de $100.000.000, con IVA del 19 %, el valor de instalación es de $15.000.000. El activo estará apto para su uso el 15 de agosto de 2020. La vida útil es de 10 años.
-          br
-          |El técnico experto estima el valor residual en $10.000.000. Calcule el valor del activo a 31 de diciembre de 2020.
-          br
-          |El importe recuperable es de $105.000.000, realice la prueba de deterioro; como se muestra a continuación:
+        p El 1 de agosto la empresa compra a crédito una máquina por valor de $100.000.000, con IVA del 19 %; el valor de instalación es de $15.000.000. El activo estará apto para su uso el 15 de agosto de 2020. La vida útil es de 10 años.
+        p El técnico experto estima el valor residual en $10.000.000. Calcule el valor del activo a 31 de diciembre de 2020.
+        p El importe recuperable es de $105.000.000; realice la prueba de deterioro, como se muestra a continuación:
 
     .fondo-sly.mn.p-5.mb-5
       .tarjeta.p-4.bg-white
@@ -398,7 +395,7 @@
                         td.text-left Diciembre (30 días)
                         td.text-right $1.033.333              
                         td.text-right $1.033.333 
-                p.mb-0 #[b Supuesto:] Prueba Deterioro: Importe recuperable < Valor en libros Deterioro             
+                p.mb-0 #[b Supuesto:] prueba deterioro: importe recuperable < valor en libros deterioro.
           div
             .row.justify-content-center.mb-5
               .col-lg-8
@@ -443,7 +440,7 @@
                         td.text-left Deterioro PPE
                         td.text-right -
                         td.text-right $2.315.564         
-    p.mb-4 Cabe resaltar, que hay Normas Internacionales que relacionan en su contenido las directrices para el reconocimiento del deterioro, entre ellas tenemos:
+    p.mb-4 Cabe resaltar que hay normas internacionales que relacionan en su contenido las directrices para el reconocimiento del deterioro; entre ellas tenemos:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.
       span Normas contables aplicables a instrumentos financieros e inventarios                  
@@ -490,7 +487,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 9. 
           span Registro contable de la adquisición
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -524,7 +521,7 @@
                 td.text-right $2.975.000
     .titulo-tres
       h3 Supuesto deterioro
-    p.mb-4 El precio estimado de los inventarios es de $2.900.000 y los gastos de venta son de $600.000
+    p.mb-4 El precio estimado de los inventarios es de $2.900.000 y los gastos de venta son de $600.000.
     .row.justify-content-center.mb-5
       .col-lg-7
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -549,7 +546,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 11. 
           span Registro contable del deterioro
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -578,17 +575,17 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor
             .h5.mb-0 La NIIF 9 (2014)      
-        p.mt-3 El deterioro constituye la pérdida en los activos financieros, el cual ha sido medido al costo o al costo amortizado; por lo tanto, se debe revisar de forma individual si existen indicios de deterioro en cada período contable y realizar el respectivo ajuste a que haya lugar. 
-    .row.justify-content-center.mb-5
+        p.mt-3 El deterioro constituye la pérdida en los activos financieros, la cual ha sido medida al costo o al costo amortizado; por lo tanto, se debe revisar de forma individual si existen indicios de deterioro en cada período contable y realizar el respectivo ajuste a que haya lugar. 
+    .row.justify-content-center.mb-4
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
-        p.mb-4 La empresa Contable SAS, tiene una cuenta por cobrar por valor de $65.000.000, el cliente presenta una situación económica especial; por lo tanto, llega a un acuerdo de pago y se define que la cuenta será pagada dentro de 6 meses, la tasa del mercado es del 1,8 % EM.
-    .row.justify-content-center.mb-5
+        p.mb-4 La empresa contable SAS tiene una cuenta por cobrar por valor de $65.000.000; el cliente presenta una situación económica especial; por lo tanto, llega a un acuerdo de pago y se define que la cuenta será pagada dentro de 6 meses; la tasa del mercado es del 1,8 % EM.
+    .row.justify-content-center
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/19.svg', alt='')
       .col-lg-7
-        p.mb-4 En este caso, es importante tener en cuenta que el cliente paga dentro de 6 meses el valor de $65.000.000, no se cobran intereses; por lo tanto, dicho valor se debe traer a valor presente teniendo en cuenta el concepto de matemáticas financieras y valor del dinero en el tiempo. Por lo tanto, se aplica la fórmula de valor actual o valor presente, mediante interés efectivo.
+        p.mb-4 En este caso, es importante tener en cuenta que el cliente paga dentro de 6 meses el valor de $65.000.000; no se cobran intereses; por lo tanto, dicho valor se debe traer a valor presente, teniendo en cuenta el concepto de matemáticas financieras y valor del dinero en el tiempo. Por lo tanto, se aplica la fórmula de valor actual o valor presente, mediante interés efectivo.
         .p-4.mb-4(style="background-color: #CBD8DF ")
           p.mb-4 VA = VF(1+i)⋀ n
             br
@@ -599,7 +596,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 12. 
           span Reconocimiento contable del deterioro de cuentas por cobrar
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -631,7 +628,7 @@
           |Por ejemplo, la empresa Contable SAS adquiere un vehículo para uso de la gerencia; en las políticas contables se estableció que la vida útil es de tres (3) años, teniendo en cuenta que cada tres años venden el vehículo y adquieren uno nuevo; por lo tanto, este será el período de depreciación.
         .p-4(style="background-color: #FBEAE6 ")
           p.mb-0 De igual manera, se tiene en cuenta el desgaste del activo fijo y la obsolescencia técnica o comercial, teniendo en cuenta las mejoras, mantenimientos y reparaciones realizadas. En el caso en que la empresa cambie las estimaciones contables respecto a la vida útil o valor residual, deberá revelar la información, teniendo en cuenta los efectos que generen las modificaciones sobre los resultados futuros. Estos cambios se reconocerán como un cambio en una estimación contable de acuerdo con la NIC 8 “Políticas Contables, Cambios en las Estimaciones Contables y Errores”.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Es importante definir el “valor residual”, teniendo en cuenta que es un término utilizado frecuentemente en el procedimiento de cálculo de la depreciación de activos fijos.
         .bloque-texto-d.color-secundario.p-4.mb-4(style="background-color: #CBE7E8 ")
@@ -641,7 +638,7 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 Según la NIC 16 (2020)
-        p.mb-4 De igual forma, para ampliar los conceptos sobre este tema se analizan los párrafos 43 y 44 de la NIC 16, que manifiesta que se depreciará de forma separada cada parte de un elemento de propiedades, planta y equipo que tenga un costo significativo con relación al costo total del elemento y será distribuida entre sus partes significativas. Por ejemplo, podría ser adecuado depreciar por separado la estructura y los motores de un avión.
+        p.mb-4 De igual forma, para ampliar los conceptos sobre este tema, se analizan los párrafos 43 y 44 de la NIC 16, que manifiesta que se depreciará de forma separada cada parte de un elemento de propiedades, planta y equipo que tenga un costo significativo con relación al costo total del elemento y será distribuida entre sus partes significativas. Por ejemplo, podría ser adecuado depreciar por separado la estructura y los motores de un avión.
           br
           br
           |La depreciación de un activo cesará cuando haya finalizado su período de depreciación (vida útil). Por otro lado, se tendrá en cuenta la fecha más próxima entre la clasificación del activo como mantenido para la venta o la baja de cuentas de este, pero en ningún momento cuando el activo no se esté utilizando.
@@ -653,8 +650,8 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 3.
       span Cálculo del importe en libros de un activo fijo
-    img.mb-5(src='@/assets/curso/temas/22.png', alt='')  
-    p.mb-4 En el caso que se realicen las mediciones posteriores y que el activo se revalúe, el nuevo importe se tendrá en cuenta para la depreciación de este. 
+    img.mb-5(src='@/assets/curso/temas/22.png', alt='Ilustración con una persona usando calculadora junto a un esquema sobre el cálculo del importe en libros de un activo fijo. Incluye los elementos: costo de adquisición, costos atribuibles como aranceles e impuestos no recuperables, provisiones por desmantelamiento y retiro, valor residual y el resultado final como importe en libros.', style="width: 1000px").m-auto  
+    p.mb-4 En el caso de que se realicen las mediciones posteriores y que el activo se revalúe, el nuevo importe se tendrá en cuenta para la depreciación de este. 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .titulo-tres
@@ -673,10 +670,10 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 4.
       span Cálculo del importe en libros de un activo
-    img.mb-4(src='@/assets/curso/temas/25.png', alt='Ilustración con fórmula contable que incluye los elementos para calcular el importe en libros: costo de adquisición, costos directos atribuibles en la medición inicial, deducciones por impuestos de renta y resultado final como importe en libros. A la izquierda, figura de una persona trabajando con gráficos financieros.')
+    img.mb-5(src='@/assets/curso/temas/25.png', alt='Ilustración con fórmula contable que incluye los elementos para calcular el importe en libros: costo de adquisición, costos directos atribuibles en la medición inicial, deducciones por impuestos de renta y resultado final como importe en libros. A la izquierda, figura de una persona trabajando con gráficos financieros.', style="width: 1000px").m-auto
     .titulo-tres
       h3 Vida útil
-    p.mb-4 La vida útil de los activos fijos se relaciona en las políticas contables diseñadas por la empresa, teniendo en cuenta la utilidad del activo. De acuerdo con el art. 137 del ET, la tasa de depreciación anual y vida útil equivalente se presenta de la siguiente manera:
+    p.mb-4 La vida útil de los activos fijos se relaciona con las políticas contables diseñadas por la empresa, teniendo en cuenta la utilidad del activo. De acuerdo con el art. 137 del ET, la tasa de depreciación anual y vida útil equivalente se presenta de la siguiente manera:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -766,7 +763,7 @@
       .col-lg-7.mb-lg-0.mb-3
         .titulo-tres.mb-4
           h3 Métodos de depreciación
-        p.mb-4 La depreciación se calcula sobre la sumatoria del precio de adquisición, el impuesto sobre las ventas y costos atribuibles para poner en funcionamiento el activo. Los métodos, son los siguientes:
+        p.mb-4 La depreciación se calcula sobre la sumatoria del precio de adquisición, el impuesto sobre las ventas y costos atribuibles para poner en funcionamiento el activo. Los métodos; son los siguientes:
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8") 
           h4.mb-0 Método de línea recta
         p.mb-2 Es el método que se usa con mayor frecuencia en las empresas, el cual consiste en dividir el costo del activo entre la vida útil estimada; por lo tanto, el cálculo en períodos iguales será el mismo valor.
@@ -833,7 +830,7 @@
                 td.text-left Diaria
                 td.text-right $235.722 / 30
                 td.text-right $7.857
-    p.mb-4 El activo se encuentra apto para su uso a partir del 12 de noviembre de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación; lo que corresponde a 19 días.
+    p.mb-4 El activo se encuentra apto para su uso a partir del 12 de noviembre de 2020; por lo tanto, se tendrá en cuenta dicha fecha para iniciar el reconocimiento de la depreciación, lo que corresponde a 19 días.
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -891,7 +888,7 @@
         p.mb-4 Es considerado un método de depreciación acelerada, porque el activo se deprecia más en los primeros años y menos en los últimos. Cabe resaltar que el método de depreciación se estipula en las políticas contables, señalando la tasa de depreciación y vida útil aplicable a los activos fijos.
           br
           br
-          |Primero, se debe calcular el factor de depreciación, para ello, utilizamos la siguiente fórmula:
+          |Primero, se debe calcular el factor de depreciación; para ello, utilizamos la siguiente fórmula:
         .row.mb-4
           .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/f1.svg', alt='Fórmula matemática para calcular la suma de los primeros números naturales, donde S es igual a n por (n + 1) dividido entre 2.')
         p.mb-4 Donde:
@@ -903,7 +900,7 @@
           |Teniendo en cuenta el ejemplo anterior, se desarrollará por el método de depreciación acelerada:
         .row.mb-4
           .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/f2.svg', alt='Fórmula matemática aplicada para calcular la suma de los primeros 15 números naturales, con resultado final S = 120.')
-        p.mb-4 Luego, se tiene en cuenta el factor para cada año de vida: 15/120 – 14/120 -13/120 y así sucesivamente hasta llegar a uno, como se muestra en la siguiente tabla:
+        p.mb-4 Luego, se tiene en cuenta el factor para cada año de vida: 15/120 - 14/120 -13/120 y así sucesivamente hasta llegar a uno, como se muestra en la siguiente tabla:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -1020,7 +1017,7 @@
       .col-lg-7.mb-lg-0.mb-3
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #FED6A8") 
           h4.mb-0 Método de unidades de producción
-        p.mb-2 Para aplicar este método, se tiene en cuenta la vida útil del activo de acuerdo con su capacidad de producción, como puede ser: horas de trabajo, kilómetros y unidades producidas.
+        p.mb-2 Para aplicar este método, se tiene en cuenta la vida útil del activo de acuerdo con su capacidad de producción, como pueden ser: horas de trabajo, kilómetros y unidades producidas.
         .row.justify-content-center.mb-3
           .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
           .col-lg-10
@@ -1030,7 +1027,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 19.
           span Depreciación mediante el método de unidades de producción
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -1064,7 +1061,6 @@
               tr
                 td 9
                 td.text-right 1.400
-
               tr
                 td 10
                 td.text-right 1.300
@@ -1074,7 +1070,7 @@
       .col-lg-5.col-7.mb-lg-0.mb-3
         img.mb-4(src='@/assets/curso/temas/44.png', alt='')
         .p-4(style="background-color: #F6F6F6 ")
-          p.mb-4 Para calcular el valor de depreciación por unidad se aplica la siguiente fórmula:
+          p.mb-4 Para calcular el valor de depreciación por unidad, se aplica la siguiente fórmula:
           .row.justify-content-center.mb-4
             .col-lg-12.col-6: img(src='@/assets/curso/temas/f3.svg', alt='')
           p.mb-4 Luego, se multiplica las unidades producidas por la depreciación por unidad:
@@ -1092,7 +1088,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 20.
       span Depreciación por unidades de producción
-    .tabla-a.color-acento-botones.mb-5
+    .tabla-a.color-acento-botones
       table
         thead(style="background-color: #FD9826 ").border-0
           tr
@@ -1216,7 +1212,7 @@
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
-        p.mb-4 El 1 de diciembre de 2020, la empresa Contable SAS, adquiere por un año una póliza de seguro por valor de $12.000.000, cancela en efectivo. 
+        p.mb-4 El 1 de diciembre de 2020, la empresa Contable SAS adquiere por un año una póliza de seguro por valor de $12.000.000, que cancela en efectivo. 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -1276,11 +1272,11 @@
                 td.fw-bold Total	
                 td.text-right.fw-bold $1.000.000
                 td.text-right.fw-bold $1.000.000
-    p.mb-4 En el año 2021, continúa el proceso de amortización, una vez se haya consumido o recibido el servicio, hasta que la cuenta del activo quede en cero (0) y su valor sea trasladado al gasto, el cual se verá reflejado en el estado de resultados.
+    p.mb-4 En el año 2021, continúa el proceso de amortización una vez que se haya consumido o recibido el servicio, hasta que la cuenta del activo quede en cero (0) y su valor sea trasladado al gasto, el cual se verá reflejado en el estado de resultados.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #F6F6F6")
-          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida, estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
+          p.mb-0 Por otro lado, los activos intangibles se amortizan a medida que generan beneficios económicos para la empresa, teniendo en cuenta que estos poseen vida útil definida e indefinida; estos últimos, de acuerdo con la NIC 38, no se amortizan. Además, se tendrán en cuenta los criterios relacionados en la NIC 38 y las políticas diseñadas por la empresa. Cabe resaltar que los activos intangibles inician el proceso de amortización una vez que estos se encuentren en condiciones de uso.
 
         .bloque-texto-d.color-secundario.p-4(style="background-color: #E4EAEE")
           .bloque-texto-d__texto.mb-2
@@ -1313,8 +1309,10 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 5.
       span Distribución de costos en el desarrollo de <em>software</em>
-    img.mb-4(src='@/assets/curso/temas/31b.png', alt='')(style="background-color: #FBEAE6")
-    p.mb-4 El #[em software] estará apto para su uso el 01 de diciembre de 2020. Se estima una vida útil de 3 años. Se solicita realizar la medición inicial y la amortización del primer mes.
+    .row.justify-content-center.mb-4
+      .col-auto
+        img(src='@/assets/curso/temas/31b.png', alt='Ilustración con desglose de costos asociados al desarrollo de software, que incluye tres rubros principales: gastos de personal (sueldos y aportaciones) por $5.500.000, materiales y suministros por $3.300.000, y pruebas del software por $1.200.000.', width: "800px").m-auto
+    p.mb-5 El #[em software] estará apto para su uso el 1 de diciembre de 2020. Se estima una vida útil de 3 años. Se solicita realizar la medición inicial y la amortización del primer mes.
     .titulo-tres
       h3 Medición inicial:
     .row.justify-content-center.mb-5
@@ -1340,7 +1338,7 @@
                 td.text-right -
               tr
                 td.text-left Activo intangible en desarrollo - Pruebas	
-                td.text-right 1.200.000
+                td.text-right $1.200.000
                 td.text-right -
               tr
                 td.text-left Efectivo	
@@ -1353,22 +1351,22 @@
     .titulo-tres
       h3 Amortización: 31 de diciembre de 2020
     p.mb-4 Se realiza por el mes de diciembre, teniendo en cuenta que el activo intangible es apto para su uso a partir del 1 de diciembre de 2020.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-8
         .p-4.mb-4(style="background-color: #F6F6F6")
-          p.mb-0 Costo Activo= $10.000.000
+          p.mb-0 Costo Activo = $10.000.000
             br
-            |Vida útil= 3 años
+            |Vida útil = 3 años
             br
-            |Anual= $3.333.333
+            |Anual = $3.333.333
             br
-            |Mensual= $277.778
+            |Mensual = $277.778
             br
-            |Diaria= $92.593
+            |Diaria = $92.593
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 24.
           span Registro contable de la amortización
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -1388,6 +1386,7 @@
                 td.fw-bold Total	
                 td.text-right.fw-bold $277.778
                 td.text-right.fw-bold $277.778
+    Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Diferencia en cambio
     .row.justify-content-center.mb-5
@@ -1404,14 +1403,14 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Cabe resaltar que para el grupo 2- NIIF pymes aplica la sección 30, Conversión de la moneda extranjera. (p.A195)
+            p.mb-0 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Cabe resaltar que, para el grupo 2, NIIF pymes aplica la sección 30, Conversión de la moneda extranjera. (p.A195)
       .col-lg-5.col-7: img(src='@/assets/curso/temas/32.svg', alt='')
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
-        p.mb-4 El 24 de noviembre de 2020 la empresa Contables SAS adquiere maquinaria y equipo por valor de USD 57.000, a una tasa de USD 3.500. El 18 de diciembre de 2020, se transfiere el riesgo una vez la máquina se encuentra en Colombia, fecha en la cual se realizará el pago. Cuando se realiza el proceso de nacionalización la tasa vigente es USD 3.620.
+        p.mb-4 El 24 de noviembre de 2020, la empresa Contables SAS adquiere maquinaria y equipo por valor de USD 57.000, a una tasa de USD 3.500. El 18 de diciembre de 2020, se transfiere el riesgo una vez la máquina se encuentra en Colombia, fecha en la cual se realizará el pago. Cuando se realiza el proceso de nacionalización, la tasa vigente es USD 3.620.
     .titulo-tres
       h3 24 de noviembre de 2020
     .row.justify-content-center.mb-5
@@ -1450,13 +1449,13 @@
       li.d-flex
         .lista-ol--cuadro__vineta
           span B
-        p.mb-0 A la llegada de la máquina a puerto colombiano, el valor de la obligación es mayor como consecuencia del incremento en la tasa de cambio. El nuevo saldo de la obligación es de $343.500.000. De acuerdo con la NIIF para las Pymes, el ajuste por diferencia en cambio debe incluirse en los resultados del período y no debe incluirse como parte del costo del activo.
-    .row.justify-content-center.mb-5
+        p.mb-0 A la llegada de la máquina a puerto colombiano, el valor de la obligación es mayor como consecuencia del incremento en la tasa de cambio. El nuevo saldo de la obligación es de $343.500.000. De acuerdo con la NIIF para las pymes, el ajuste por diferencia en cambio debe incluirse en los resultados del período y no debe incluirse como parte del costo del activo.
+    .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 26.
           span Registro de la diferencia en cambio (18 de diciembre de 2020)
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -1479,21 +1478,21 @@
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5 Arqueo de caja
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-0 Las empresas manejan la cuenta de caja general y caja menor, las cuales hacen parte del efectivo; esta última se utiliza para gastos de menor cuantía y debe establecerse en las políticas contables el valor del fondo y los conceptos que lo componen, con el fin de ser aplicados de forma correcta conforme los estándares establecidos.
+        p.mb-0 Las empresas manejan la cuenta de caja general y caja menor, las cuales hacen parte del efectivo; esta última se utiliza para gastos de menor cuantía y debe establecerse en las políticas contables el valor del fondo y los conceptos que lo componen, con el fin de ser aplicados de forma correcta conforme a los estándares establecidos.
           br
           br
           |Por otro lado, la caja general se utiliza para cancelar gastos o conceptos mayores. En cualquiera de los dos casos es importante realizar un arqueo de caja, el cual consiste en comparar el valor de libros con lo que efectivamente existe en la caja.
           br
           br
-          |Cuando se realiza la comparación pueden surgir diferencias que requieren un ajuste contable mediante una nota de contabilidad, estos pueden ser:
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/33.svg', alt='')
-    ol.lista-ol--cuadro
+          |Cuando se realiza la comparación, pueden surgir diferencias que requieren un ajuste contable mediante una nota de contabilidad; estos pueden ser:
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/33.svg', alt='', style='width: 400px').m-auto
+    ol.lista-ol--cuadro.mb-5
       li.d-flex
         .lista-ol--cuadro__vineta
           span a
-        p.mb-0 El importe de libros es mayor al valor del arqueo de caja: eso genera un faltante, por ende, se establece el responsable de dicha situación y se procede a realizar el ajuste, con el fin de reflejar la realidad económica y el saldo correcto del efectivo. Los casos que se presentan por faltantes son los siguientes:
+        p.mb-0 El importe de libros es mayor al valor del arqueo de caja: eso genera un faltante; por ende, se establece el responsable de dicha situación y se realiza el ajuste, con el fin de reflejar la realidad económica y el saldo correcto del efectivo. Los casos que se presentan por faltantes son los siguientes:
     .fondo-sly.mn.p-5.mb-5
       .tarjeta.p-5.bg-white
         SlyderA(tipo='b')
@@ -1501,7 +1500,7 @@
             p.mb-4.fw-bold Carece de registro en libros; sin embargo, el dinero se utilizó para cancelar algún concepto. 
             .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo: 
-              p.mb-0 Sandra Rojas canceló por concepto de papelería $40.000, sin embargo, no se registró dicho concepto en los libros. Por lo tanto, se realiza el ajuste, registrando el concepto pendiente.
+              p.mb-0 Sandra Rojas canceló por concepto de papelería $40.000; sin embargo, no se registró dicho concepto en los libros. Por lo tanto, se realiza el ajuste, registrando el concepto pendiente.
                 br
                 br
                 |Asiento de ajuste.
@@ -1530,7 +1529,7 @@
                       td.text-right.fw-bold $40.000
                       td.text-right.fw-bold $40.000
           .row.justify-content-center
-            p.mb-4.fw-bold Faltante injustificado, no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
+            p.mb-4.fw-bold Faltante injustificado; no se evidencia el concepto o soporte por el que falta dinero en la caja, una vez se realizó el arqueo. Por lo anterior, el colaborador es responsable de este suceso.
             .col-lg-4.mb-lg-0.mb-3
               h5 Ejemplo: 
               p.mb-0 Presenta un faltante injustificado por valor de $50.000.
@@ -1571,7 +1570,7 @@
         .row.justify-content-center
             .col-lg-5.mb-lg-0.mb-3
               h5 Mayor valor en la caja y carece del registro contable
-              p.mb-0 El 25 de noviembre de 2020, se realiza el arqueo de caja donde se obtiene un valor de $220.000 y el importe en libros se encuentra por $200.000. Por lo tanto, se realiza el ajuste teniendo en cuenta la diferencia.
+              p.mb-0 El 25 de noviembre de 2020, se realiza el arqueo de caja, donde se obtiene un valor de $220.000 y el importe en libros se encuentra por $200.000. Por lo tanto, se realiza el ajuste teniendo en cuenta la diferencia.
                 br
                 br
                 |Asiento de ajuste.
@@ -1603,10 +1602,10 @@
         .row.justify-content-center
             .col-lg-5.mb-lg-0.mb-3
               h5 Sobrantes en la caja injustificado
-              p.mb-0 Si es una cuantía mínima se aumenta el valor de efectivo y el ingreso; sin embargo, si es un valor significativo debe establecerse las causas que originó el sobrante; por lo tanto, se registra como un pasivo.
+              p.mb-0 Si es una cuantía mínima, se aumenta el valor de efectivo y el ingreso; sin embargo, si es un valor significativo, deben establecerse las causas que originaron el sobrante; por lo tanto, se registra como un pasivo.
                 br
                 br
-                |El 25 de noviembre de 2020, se realiza el arqueo de caja donde se obtiene un valor de $220.000 y el importe en libros se encuentra por $200.000. Por lo tanto, se realiza el ajuste teniendo en cuenta la diferencia.
+                |El 25 de noviembre de 2020, se realiza el arqueo de caja, donde se obtiene un valor de $220.000 y el importe en libros se encuentra por $200.000. Por lo tanto, se realiza el ajuste teniendo en cuenta la diferencia.
                 br
                 br
                 |Asiento de ajuste.
@@ -1641,7 +1640,7 @@
       .col-lg-7.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color: #CBE7E8")
           p.mb-0 La conciliación bancaria es el proceso de verificación y comparación del importe en libros de la cuenta de bancos con el extracto de la cuenta de ahorros o corriente generado por la entidad financiera, cuyo objetivo es confrontar las diferencias y realizar los ajustes respectivos que permitan revelar información comprensible, útil y oportuna.
-        p.mb-0 La conciliación se realiza de forma mensual, teniendo en cuenta, confirmar las fechas, valores, soportes de las transacciones, luego se analizan las diferencias encontradas y se realizan los ajustes, con el fin de reflejar el saldo correcto en los libros. Los ajustes que frecuentemente se presentan son los siguientes:
+        p.mb-0 La conciliación se realiza de forma mensual, teniendo en cuenta confirmar las fechas, valores, soportes de las transacciones; luego se analizan las diferencias encontradas y se realizan los ajustes, con el fin de reflejar el saldo correcto en los libros. Los ajustes que frecuentemente se presentan son los siguientes:
       .col-lg-5.col-7: img(src='@/assets/curso/temas/34.png', alt='')
     ol.lista-ol--cuadro
       li.d-flex.flex-column
@@ -1660,16 +1659,16 @@
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-4.mb-lg-0.mb-3
-              h5 Ejemplo 1: Registro compra chequera
+              h5 Ejemplo 1: registro compra chequera
 
-              p.mb-0 La empresa Contable SAS, no registra la compra de chequera por valor de $180.000, más IVA del 19 %, la cual se encuentra registrada en el extracto bancario emitido por la entidad financiera.
+              p.mb-0 La empresa Contable SAS; no registra la compra de chequera por valor de $180.000, más IVA del 19 %, la cual se encuentra registrada en el extracto bancario emitido por la entidad financiera.
                 br
                 br
                 |Asiento de ajuste.
             .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 31.
-                span Ejemplo 1: Registro de egreso por cheque
+                span Ejemplo 1: registro de egreso por cheque
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1697,15 +1696,15 @@
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-4.mb-lg-0.mb-3
-              h5 Ejemplo 2: Registro GMF:
-              p.mb-0 En el extracto bancario se encuentra registrada una nota débito por concepto de Gravamen a los movimientos financieros por un valor de $90.300, el cual, no se encuentra registrado en los libros contables de la empresa.
+              h5 Ejemplo 2: registro GMF:
+              p.mb-0 En el extracto bancario se encuentra registrada una nota débito por concepto de gravamen a los movimientos financieros por un valor de $90.300, el cual no se encuentra registrado en los libros contables de la empresa.
                 br
                 br
                 |Asiento de ajuste.
             .col-lg-8
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 32.
-                span Ejemplo 2: Registro GMF (Gravamen a los Movimientos Financieros)
+                span Ejemplo 2: registro GMF (Gravamen a los Movimientos Financieros)
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1736,18 +1735,18 @@
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
-              h5 Ejemplo 3: Registro cheque devuelto:
-              p.mb-0 En ocasiones se reflejan valores reconocidos en los libros contables y no registrados por la entidad financiera: este caso sucede cuando existen cheques pendientes de cobro o que han sido devueltos, también se presentan remesas en tránsito.
+              h5 Ejemplo 3: registro cheque devuelto:
+              p.mb-0 En ocasiones se reflejan valores reconocidos en los libros contables y no registrados por la entidad financiera: este caso sucede cuando existen cheques pendientes de cobro o que han sido devueltos; también se presentan remesas en tránsito.
                 br
                 br
-                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $600.000, consignado a la empresa contables SAS y devuelto por la entidad financiera por fondos insuficientes, por lo anterior, el importe no se encuentra registrado en los libros contables.
+                |En el extracto bancario existe una nota débito por concepto de un cheque girado por el cliente Carlos Téllez por valor de $600.000, consignado a la empresa Contables SAS y devuelto por la entidad financiera por fondos insuficientes; por lo anterior, el importe no se encuentra registrado en los libros contables.
                 br
                 br
                 |Asiento de ajuste.
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 33.
-                span Ejemplo 3: Registro de cheque devuelto
+                span Ejemplo 3: registro de cheque devuelto
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1771,7 +1770,7 @@
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
-              h5 Ejemplo 4: Consignación realizada por el cliente y no registrada
+              h5 Ejemplo 4: consignación realizada por el cliente y no registrada
 
               p.mb-0 Al realizar la confrontación del extracto bancario con los libros de bancos, se observa que el extracto relaciona una nota crédito por valor de $550.000, correspondiente a la consignación realizada por el cliente Jorge Medina y no registrada por la empresa.
                 br
@@ -1783,8 +1782,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 34.
-
-                span Ejemplo 1: Registro de egreso erróneo por menor valor 
+                span Ejemplo 4: consignación realizada por el cliente y no registrada
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1817,18 +1815,17 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 5: registro de menor valor de la consignación
-
               p.mb-0 La empresa contable SAS realiza una consignación en la cuenta corriente por valor de $1.000.000; sin embargo, el registro contable aparece por $100.000.
                 br
                 br
-                |El ajuste se realiza por la diferencia, aumentado la cuenta de bancos.
+                |El ajuste se realiza por la diferencia, aumentando la cuenta de bancos.
                 br
                 br
                 |Asiento de ajuste.
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 35.
-                span Ejemplo 2: Registro de menor valor de la consignación
+                span Ejemplo 5: registro de menor valor de la consignación
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1860,7 +1857,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 36.
-                span Ejemplo 3: Registro de mayor valor de la consignación
+                span Ejemplo 6: registro de mayor valor de la consignación
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1886,9 +1883,6 @@
             .lista-ol--cuadro__vineta
               span c
             p.mb-0 #[b Por errores en libros:] se presenta cuando la empresa registra un menor o mayor valor en la contabilidad, por concepto de consignaciones.
-
-
-
     .fondo-sly.mn.p-5.mb-5
       .tarjeta.p-5.bg-white
         SlyderA(tipo='b')
@@ -1896,15 +1890,14 @@
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
               h5 Ejemplo 7: registro de menor valor del cheque
-
-              p.mb-0 La empresa contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $810.000; sin embargo, el registro contable aparece por $180.000.
+              p.mb-0 La empresa Contable SAS gira un cheque para cancelar mantenimiento de equipo por valor de $810.000; sin embargo, el registro contable aparece por $180.000.
                 br
                 br
                 |Asiento de ajuste.
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 37.
-                span Ejemplo 1: Registro por gasto bancario (mantenimiento de chequera)
+                span Ejemplo 7: registro de menor valor del cheque
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1928,7 +1921,7 @@
           .row.justify-content-center
             p.mb-4.fw-bold 
             .col-lg-5.mb-lg-0.mb-3
-              h5 Ejemplo 8: registro de mayor valor del cheque:
+              h5 Ejemplo 8: registro de mayor valor del cheque
               p.mb-0 La empresa contable SAS gira un cheque por valor de $3.200.000, para cancelar a los proveedores la mercancía; sin embargo, el registro contable aparece por $3.800.000.
                   br
                   br
@@ -1936,7 +1929,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Tabla 38.
-                span Ejemplo 2: Registro de mayor valor del cheque
+                span Ejemplo 8: registro de mayor valor del cheque
               .tabla-a.color-acento-botones.mb-5
                 table
                   thead(style="background-color: #FD9826 ").border-0
@@ -1962,26 +1955,26 @@
       h2 1.7 Balance de prueba
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 El balance de prueba o de comprobación es un documento que refleja los saldos en el debe y haber de las cuentas de activo, pasivo, patrimonio, ingresos, gastos y costos. Cada una de las columnas débito y crédito deben dar sumas iguales, verificando una vez más el principio de partida doble.
+        p.mb-4 El balance de prueba o de comprobación es un documento que refleja los saldos en el debe y haber de las cuentas de activo, pasivo, patrimonio, ingresos, gastos y costos. Cada una de las columnas débito y crédito debe dar sumas iguales, verificando una vez más el principio de partida doble.
         .tarjeta.p-4(style="background-color: #CBE7E8").rounded-0.mb-4
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/35.svg', alt='')
             .col-lg-10
-              p.mb-0 Las cuentas de naturaleza débito son activos, gastos y costo y las cuentas de naturaleza crédito se encuentran conformadas por pasivo, patrimonio e ingresos.
+              p.mb-0 Las cuentas de naturaleza débito son activos, gastos y costo, y las cuentas de naturaleza crédito se encuentran conformadas por pasivo, patrimonio e ingresos.
         p.mb-0 Este balance es el insumo para elaborar el balance de prueba ajustado, donde se actualizan los saldos de las cuentas que presentaron ajustes por diferentes conceptos y seguidamente realizar los estados financieros de propósito general.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/36.png', alt='')
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
         .d-inline-block.rounded-3.p-2.mb-3(style="background-color: #CBE7E8")
           h4.mb-0 Ejemplo
-        p.mb-4 La empresa contable SAS, presenta los siguientes saldos del libro mayor a 31 de diciembre de 2020, con el fin de elaborar el balance de prueba.
+        p.mb-4 La empresa Contable SAS presenta los siguientes saldos del libro mayor al 31 de diciembre de 2020, con el fin de elaborar el balance de prueba.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 39.
           span Balance de saldos por cuenta contable
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -2055,24 +2048,137 @@
                 td.text-right $42.120.000
               tr
                 td 4210
-                td.text-left Ingresos Financieros
+                td.text-left Ingresos financieros
                 td.text-right $364.000
               tr
                 td 5305
-                td.text-left Gastos Financieros
+                td.text-left Gastos financieros
                 td.text-right $585.000
               tr
                 td 6135
                 td.text-left Costo de ventas
                 td.text-right $22.750.000
       .col-lg-5.col-7: img(src='@/assets/curso/temas/37.svg', alt='')
-    p.mb-4 Para elaborar el balance de comprobación o de prueba es importante organizar cada una de las cuentas teniendo en cuenta la clase de activo, pasivo, patrimonio, ingresos, gastos y costos, luego se traslada el saldo de acuerdo con la naturaleza de cada cuenta. Finalmente, se verifica que el total débito y crédito tengan el mismo valor. A continuación, observe la solución del ejercicio planteado:
-    .row.justify-content-center.mb-5
+    p.mb-5 Para elaborar el balance de comprobación o de prueba, es importante organizar cada una de las cuentas, teniendo en cuenta la clase de activo, pasivo, patrimonio, ingresos, gastos y costos; luego se traslada el saldo de acuerdo con la naturaleza de cada cuenta. Finalmente, se verifica que el total de débito y crédito tenga el mismo valor. A continuación, observe la solución del ejercicio planteado:
+    .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 40.
-          span Balance de Comprobación de CONTABLE SAS
-        img(src='@/assets/curso/temas/38.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
+          span Balance de comprobación de Contable SAS
+        .tabla-a.color-acento-botones
+          table
+            thead.border-0
+              tr
+                th(colspan="4", style="background-color: #727997").text-white Contable SAS
+              tr
+                th(colspan="4", style="background-color: #FEEAD4") NIT: 900.430.320-0
+              tr
+                th(colspan="4", style="background-color: #FED6A8") Balance general de comprobación
+            tbody
+              tr
+                th(style="background-color: #FD9826 !important") Código
+                th(style="background-color: #FD9826 !important") Cuenta
+                th(style="background-color: #FD9826 !important") Debe
+                th(style="background-color: #FD9826 !important") Haber
+              tr
+                td.text-left 1105
+                td.text-left Caja
+                td.text-right $409.000
+                td.text-right -
+              tr
+                td.text-left 1106
+                td.text-left Bancos
+                td.text-right $17.680.000
+                td.text-right -
+              tr
+                td.text-left 1305
+                td.text-left Clientes
+                td.text-right $5.070.000
+                td.text-right -
+              tr
+                td.text-left 1365
+                td.text-left Cuentas por cobrar a trabajadores
+                td.text-right $520.000
+                td.text-right -
+              tr
+                td.text-left 1435
+                td.text-left Inventarios
+                td.text-right $32.500.000
+                td.text-right -
+              tr
+                td.text-left 1524
+                td.text-left Equipo de oficina
+                td.text-right $6.500.000
+                td.text-right -
+              tr
+                td.text-left 1540
+                td.text-left Flota y equipo de transporte
+                td.text-right $62.400.000
+                td.text-right -
+              tr
+                td.text-left 1592
+                td.text-left Depreciación acumulada
+                td.text-right -
+                td.text-right $7.670.000
+              tr
+                td.text-left 1705
+                td.text-left Gastos pagados por anticipado
+                td.text-right $1.170.000
+                td.text-right -
+              tr
+                td.text-left 2105
+                td.text-left Obligaciones nacionales
+                td.text-right -
+                td.text-right $630.000
+              tr
+                td.text-left 2205
+                td.text-left Proveedores nacionales
+                td.text-right -
+                td.text-right $3.120.000
+              tr
+                td.text-left 2408
+                td.text-left Impuestos sobre las ventas por pagar
+                td.text-right -
+                td.text-right $910.000
+              tr
+                td.text-left 2705
+                td.text-left Ingresos recibidos por anticipado
+                td.text-right -
+                td.text-right $130.000
+              tr
+                td.text-left 3115
+                td.text-left Aportes sociales
+                td.text-right - 
+                td.text-right $98.800.000
+              tr
+                td.text-left 4135
+                td.text-left Ingresos ordinarios
+                td.text-right -
+                td.text-right $42.120.000
+              tr
+                td.text-left 4210
+                td.text-left Ingresos financieros
+                td.text-right -
+                td.text-right $364.000
+              tr
+                td.text-left 5105
+                td.text-left Gastos de personal
+                td.text-right $4.160.000
+                td.text-right -
+              tr
+                td.text-left 5305
+                td.text-left Gastos financieros
+                td.text-right $585.000
+                td.text-right -
+              tr
+                td.text-left 6135
+                td.text-left Costo de ventas
+                td.text-right $22.750.000
+                td.text-right -
+              tr(style="background-color: #FFF !important")
+                th(colspan="2").text-left Total
+                th.text-right $153.744.000
+                th.text-right $153.744.000
     Separador 
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8 Balance ajustado
@@ -2081,8 +2187,8 @@
       .col-lg-7
         p.mb-4 Para elaborar el balance ajustado, es importante tener en cuenta los diferentes ajustes que se presentaron en las cuentas, como son los ajustes de caja, bancos, depreciaciones, amortizaciones y demás cuentas que hayan sufrido alguna modificación por concepto de algún tipo de ajustes, los cuales generan cambios en períodos posteriores.
         .p-4.mb-4(style="background-color: #CBE7E8 ")
-          p.mb-0 Teniendo en cuenta lo anterior, se procede a realizar el comprobante de ajustes, seguidamente el balance ajustado donde se trasladan cada una de las cuentas de activos, pasivo, patrimonio, ingresos, gastos y costos.
-        p.mb-0 Cabe resaltar que el balance debe sumar igual en el movimiento débito y crédito.
+          p.mb-0 Teniendo en cuenta lo anterior, se procede a realiza el comprobante de ajustes, seguidamente el balance ajustado donde se trasladan cada una de las cuentas de activos, pasivo, patrimonio, ingresos, gastos y costos.
+        p.mb-0 Cabe resaltar que el balance debe sumar igual en el movimiento de débito y crédito.
     .row.justify-content-center.mb-5
       .col-1.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-11
@@ -2103,7 +2209,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 Se deprecian los activos fijos por el método de línea recta por un mes. La vida útil del equipo de oficina es de 10 años y de la flota de transportes 5 años.
+            p.mb-0 Se deprecian los activos fijos por el método de línea recta por un mes. La vida útil del equipo de oficina es de 10 años y de la flota de transportes, 5 años.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 4
@@ -2116,13 +2222,313 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 7.
-          span Comprobante de Ajustes - CONTABLE SAS
-        img(src='@/assets/curso/temas/41.svg', alt='Tabla que presenta códigos, detalles contables y valores en columnas de debe y haber, incluyendo cuentas como caja, bancos, gastos por depreciación, ingresos financieros, y ajustes por anticipados y acumulados.')
+          h5 Tabla 41.
+          span Comprobante de ajustes - Contable SAS
+        .tabla-a.color-acento-botones
+          table
+            thead.border-0
+              tr
+                th(colspan="4", style="background-color: #727997").text-white Contable SAS
+              tr
+                th(colspan="4", style="background-color: #FEEAD4") NIT: 900.430.320-0
+              tr
+                th(colspan="4", style="background-color: #FED6A8") Comprobante de ajustes
+            tbody
+              tr
+                th(style="background-color: #FD9826 !important") Código
+                th(style="background-color: #FD9826 !important") Cuenta
+                th(style="background-color: #FD9826 !important") Debe
+                th(style="background-color: #FD9826 !important") Haber
+              tr
+                td.text-left 1365
+                td.text-left Cuentas por cobrar a trabajadores
+                td.text-right $35.000
+                td.text-right -
+              tr
+                td.text-left 1105
+                td.text-left Caja
+                td.text-right -
+                td.text-right $35.000
+              tr
+                td.text-left 5115
+                td.text-left GMF
+                td.text-right $85.000
+                td.text-right -
+              tr
+                td.text-left 1110
+                td.text-left Bancos
+                td.text-right -
+                td.text-right $85.000
+              tr
+                td.text-left 5160
+                td.text-left Gastos depreciación
+                td.text-right $1.094.167
+                td.text-right -
+              tr
+                td.text-left 1592
+                td.text-left Depreciación acumulada
+                td.text-right -
+                td.text-right $1.094.167
+              tr
+                td.text-left 5120
+                td.text-left Gastos arrendamiento
+                td.text-right $585.000
+                td.text-right -
+              tr
+                td.text-left 1705
+                td.text-left Gastos pagados por anticipado
+                td.text-right -
+                td.text-right $585.000
+              tr
+                td.text-left 2705
+                td.text-left Ingresos recibidos por anticipado
+                td.text-right $65.000
+                td.text-right -
+              tr
+                td.text-left 4210
+                td.text-left Ingresos financieros
+                td.text-right -
+                td.text-right $65.000
+              tr
+                th(colspan="2").text-left Sumas iguales
+                th.text-right $1.864.167
+                th.text-right $1.864.167
+              tr
+                td.text-left #[b Elaborado por:]
+                  br
+                  br
+                td.text-left #[b Revisado por:]
+                  br
+                  br
+                td.text-left #[b Aprobado por:]
+                  br
+                  br
+                td.text-left #[b Contabilizado por:]
+                  br
+                  br
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 8.
-      span Hoja de Trabajo – CONTABLE SAS
-    img.mb-4(src='@/assets/curso/temas/42.svg', alt='Tabla contable que presenta el código, cuenta, saldos de prueba, ajustes y saldos ajustados, con datos en debe y haber. Incluye cuentas como caja, bancos, clientes, inventarios, depreciación acumulada, gastos financieros y aportes sociales, detallando las modificaciones contables realizadas.')
+      h5 Tabla 42.
+      span Hoja de Trabajo - Contable SAS
+    .tabla-a.color-acento-botones.mb-5
+      table
+        thead.border-0
+          tr
+            th(colspan="8", style="background-color: #727997").text-white Contable SAS
+          tr
+            th(colspan="8", style="background-color: #FED6A8") NIT: 900.430.320-0
+        tbody
+          tr
+            th(style="background-color: #FEC381 !important") Código
+            th(style="background-color: #FEC381 !important") Cuenta
+            th(style="background-color: #FEC381 !important", colspan="2") Balance de prueba
+            th(style="background-color: #FEC381 !important", colspan="2") Ajustes
+            th(style="background-color: #FEC381 !important", colspan="2") Balance ajustado
+          tr
+            th(style="background-color: #FD9826 !important") 
+            th(style="background-color: #FD9826 !important") 
+            th(style="background-color: #FD9826 !important") Debe
+            th(style="background-color: #FD9826 !important") Haber
+            th(style="background-color: #FD9826 !important") Debe
+            th(style="background-color: #FD9826 !important") Haber
+            th(style="background-color: #FD9826 !important") Debe
+            th(style="background-color: #FD9826 !important") Haber
+          tr
+            td.text-left 1105
+            td.text-left Caja
+            td.text-right $409.000
+            td.text-right -
+            td.text-right -
+            td.text-right $35.000
+            td.text-right $374.000
+            td.text-right -
+          tr
+            td.text-left 1110
+            td.text-left Bancos
+            td.text-right $17.680.000
+            td.text-right -
+            td.text-right -
+            td.text-right $85.000
+            td.text-right $17.685.000
+            td.text-right -
+          tr
+            td.text-left 1305
+            td.text-left Clientes
+            td.text-right $5.070.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $5.070.000
+            td.text-right -
+          tr
+            td.text-left 1365
+            td.text-left Cuentas por cobrar a trabajadores
+            td.text-right $520.000
+            td.text-right -
+            td.text-right $35.000
+            td.text-right -
+            td.text-right $555.000
+            td.text-right -
+          tr
+            td.text-left 1435
+            td.text-left Inventarios
+            td.text-right $32.500.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $32.500.000
+            td.text-right -
+          tr
+            td.text-left 1524
+            td.text-left Equipo de oficina
+            td.text-right $6.500.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $6.500.000
+            td.text-right -
+          tr
+            td.text-left 1540
+            td.text-left Flota y equipo de transporte
+            td.text-right $62.400.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $62.400.000
+            td.text-right -
+          tr
+            td.text-left 1592
+            td.text-left Depreciación acumulada
+            td.text-right -
+            td.text-right $7.670.000
+            td.text-right -
+            td.text-right $1.094.167
+            td.text-right -
+            td.text-right $8.764.167
+          tr
+            td.text-left 1705
+            td.text-left Gastos pagados por anticipado
+            td.text-right $1.170.000
+            td.text-right -
+            td.text-right -
+            td.text-right $585.000
+            td.text-right $585.000
+            td.text-right -
+          tr
+            td.text-left 2105
+            td.text-left Obligaciones nacionales
+            td.text-right -
+            td.text-right $630.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $630.000
+          tr
+            td.text-left 2205
+            td.text-left Proveedores nacionales
+            td.text-right -
+            td.text-right $3.120.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $3.120.000
+          tr
+            td.text-left 2408
+            td.text-left Impuestos sobre las ventas por pagar
+            td.text-right -
+            td.text-right $910.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $910.000
+          tr
+            td.text-left 2705
+            td.text-left Ingresos recibidos por anticipado
+            td.text-right -
+            td.text-right $130.000
+            td.text-right $65.000
+            td.text-right -
+            td.text-right -
+            td.text-right $65.000
+          tr
+            td.text-left 3115
+            td.text-left Aportes sociales
+            td.text-right -
+            td.text-right $98.800.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $98.800.000
+          tr
+            td.text-left 4135
+            td.text-left Ingresos ordinarios
+            td.text-right -
+            td.text-right $42.120.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $42.120.000
+          tr
+            td.text-left 4210
+            td.text-left Ingresos financieros
+            td.text-right -
+            td.text-right $364.000
+            td.text-right -
+            td.text-right $65.000
+            td.text-right -
+            td.text-right $429.000
+          tr
+            td.text-left 5105
+            td.text-left Gastos de personal
+            td.text-right $4.160.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $4.160.000
+            td.text-right -
+          tr
+            td.text-left 5120
+            td.text-left Gastos arrendamiento
+            td.text-right -
+            td.text-right -
+            td.text-right $585.000
+            td.text-right -
+            td.text-right $585.000
+            td.text-right -
+          tr
+            td.text-left 5160
+            td.text-left Gastos depreciación
+            td.text-right -
+            td.text-right -
+            td.text-right $1.094.167
+            td.text-right -
+            td.text-right $1.094.167
+            td.text-right -
+          tr
+            td.text-left 5305
+            td.text-left Gastos financieros
+            td.text-right $585.000
+            td.text-right -
+            td.text-right $85.000
+            td.text-right -
+            td.text-right $670.000
+            td.text-right -
+          tr
+            td.text-left 6135
+            td.text-left Costo de ventas
+            td.text-right $22.750.000
+            td.text-right -
+            td.text-right -
+            td.text-right -
+            td.text-right $22.750.000
+            td.text-right -
+          tr
+            th(colspan="2").text-left Total
+            th.text-right $153.744.000
+            th.text-right $153.744.000
+            th.text-right $1.864.167
+            th.text-right $1.864.167
+            th.text-right $154.838.167
+            th.text-right $154.838.167
     .titulo-tres
       h3 Hoja de trabajo
     .row.justify-content-center.mb-5
@@ -2134,8 +2540,8 @@
     .titulo-tres
       h3 Asientos de cierre
     p.mb-4 Para realizar el cierre de las cuentas de resultados, se realiza una anotación contraria a su naturaleza. Por ejemplo, los ingresos se debitan y los gastos y costos se acreditan con el fin de determinar la utilidad o pérdida del ejercicio.
-    .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3
+    .row.justify-content-center
+      .col-lg-8.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 39.
           span Cierre de la cuenta de ingresos
@@ -2210,7 +2616,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 41.
           span Cierre de la cuenta de utilidad o pérdida
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -2231,12 +2637,12 @@
                 td.text-right.fw-bold $13.289.833	
                 td.text-right.fw-bold $13.289.833
     p.mb-4 El ejercicio presentó utilidad, teniendo en cuenta que los ingresos superaron los costos y gastos; por lo tanto, se realizó el registro crédito aumentando el patrimonio. En el caso en que los ingresos sean inferiores a los costos y gastos, se refleja una pérdida en el ejercicio, disminuyendo el patrimonio (débito).
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 42.
           span Balance final de saldos contables
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
@@ -2322,7 +2728,7 @@
                 td.text-right -
               tr
                 td 4210
-                td.text-left Ingresos Financieros
+                td.text-left Ingresos financieros
                 td.text-right -
                 td.text-right -
               tr
@@ -2342,7 +2748,7 @@
                 td.text-right -
               tr
                 td 5305
-                td.text-left Gastos Financieros
+                td.text-left Gastos financieros
                 td.text-right - 
                 td.text-right $585.000
               tr
@@ -2360,50 +2766,6 @@
                 td.fw-bold TOTAL
                 td.text-right -
                 td.text-right.fw-bold $153.744.000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

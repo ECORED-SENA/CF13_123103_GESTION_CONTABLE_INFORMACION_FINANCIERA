@@ -141,7 +141,7 @@ export default {
     {
       termino: 'Asientos de ajuste',
       significado:
-        'registros contables realizados al finalizar un periodo y que tienen como objetivo registrar hechos económicos ejecutados, pero no reconocidos y corregir errores y omisiones cometidos a lo largo del periodo contable.',
+        'registros contables realizados al finalizar un periodo y que tienen como objetivo registrar hechos económicos ejecutados, pero no reconocidos, y corregir errores y omisiones cometidos a lo largo del periodo contable.',
     },
     {
       termino: 'Asientos de cierre',
@@ -151,7 +151,7 @@ export default {
     {
       termino: 'Balance de prueba ajustado',
       significado:
-        'listado de los saldos débitos y créditos de las cuentas de los estados financieros, que se prepara después de los asientos de ajuste y antes de los de cierre.',
+        'listado de los saldos, débitos y créditos de las cuentas de los estados financieros, que se prepara después de los asientos de ajuste y antes de los de cierre.',
     },
     {
       termino: 'Cuentas permanentes',
@@ -190,11 +190,6 @@ export default {
     },
   ],
   referencias: [
-    // {
-    //   referencia:
-    //     'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.',
-    //   link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
-    // },
     {
       referencia:
         'Consejo Técnico de la Contaduría Pública (CTCP) (2020, 27 de noviembre). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo.',
@@ -216,7 +211,7 @@ export default {
     {
       referencia:
         'Norma Internacional de Contabilidad 2. Presentación de Estados Financieros. (2020, 27 de noviembre).',
-      link: 'http://nicniif.org/files/NIC%202%20Inventarios.pdf',
+      link: '',
     },
     {
       referencia:
@@ -227,8 +222,7 @@ export default {
     {
       referencia:
         'Norma Internacional de Contabilidad 12. Impuesto a las ganancias (2020, 4 de diciembre).',
-      link:
-        'https://www.nicniif.org/files/u1/Norma_Internacional_de_Contabilidad_n___12.pdf',
+      link: '',
     },
     {
       referencia:
@@ -273,13 +267,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable del ecosistema',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción Huila',
+          cargo: 'Responsable de línea de producción',
           centro: 'Dirección General',
         },
       ],
@@ -288,15 +282,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Patricia Mantilla Galvis',
-          cargo: 'Experta temática',
+          nombre: 'Ricardo Larrota',
+          cargo: 'Experto temático',
           centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
         },
         {
-          nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora Instruccional',
+          nombre: 'Maryuri Agudelo Franco',
+          cargo: 'Evaluadora instruccional',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -304,22 +298,58 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carlos Julián Ramírez Benítez',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Cielo Damaris Angulo Rodriguez',
+          nombre: 'Fredy Dabian Ortíz Segura',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Henry Álvarez Astudillo',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Henry Alvarez Astudillo',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Adriana Ariza',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Adriana Marcela Suárez Eljure',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nelson Vera',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -327,26 +357,26 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             ' Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

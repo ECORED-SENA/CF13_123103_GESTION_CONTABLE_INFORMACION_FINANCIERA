@@ -20,10 +20,10 @@ export default {
       tema: 'Ajustes y cierre del periodo contable según normativa NIIF',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Identificar los conceptos clave relacionados con los ajustes contables y el cierre del ciclo contable conforme a la normativa financiera vigente, especialmente las NIIF.',
+        '<b>Objetivo:</b> identificar los conceptos clave relacionados con los ajustes contables y el cierre del ciclo contable conforme a la normativa financiera vigente, especialmente las NIIF.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -329,110 +329,6 @@ export default {
               id: 'd',
               texto: 'Notas a los estados financieros.',
               esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El balance de prueba ajustado se elabora antes del comprobante de ajustes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Falso.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Verdadero.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto: 'La amortización se aplica únicamente a activos tangibles.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Falso.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Verdadero.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'Un aumento en la tasa de cambio puede generar una diferencia en cambio negativa.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Falso.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Verdadero.',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'El valor residual es considerado en el cálculo de la depreciación.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Falso.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Verdadero.',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'Los activos intangibles con vida útil indefinida no se amortizan.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Falso.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Verdadero.',
-              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
