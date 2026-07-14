@@ -785,8 +785,8 @@
           table
             thead(style="background-color: #FD9826 ").border-0
               tr
-                th Concepto
-                th Valor
+                th(width="30% !important") Concepto
+                th(width="70% !important") Valor
             tbody
               tr
                 td.text-left Costo Activo	
@@ -2793,4 +2793,9 @@ export default {
   background-position: center
   background-repeat: no-repeat
   position: relative
+  td,th
+    padding: 1rem !important
+  .tabla-a
+    table
+      min-width: 100%
 </style>
